@@ -313,3 +313,6 @@ export const leadershipTeam = [
     former: ['IIT(ISM)'],
     focus: ['Supply Chain Optimisation', 'Digital Twin & Simulation', 'Operations Excellence'],
     bio: 'Sparsh specialises in supply chain management and operations excellence, with 5+ years building simulation and analytical solutions for global businesses. He has developed digital twin solutions for pharmaceutical, steel, and manufacturing clients, delivering measurable cost reductions and operational improvements. B.Tech & M.Tech in Computer Science from IIT (ISM) Dhanbad.',
+    linkedin: 'https://www.linkedin.com/in/sparsh-choudhary',
+  },
+]
