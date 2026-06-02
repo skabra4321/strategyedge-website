@@ -316,3 +316,49 @@ export const leadershipTeam = [
     linkedin: 'https://www.linkedin.com/in/sparsh-choudhary',
   },
 ]
+
+export const insights = [
+  {
+    slug: 'vision-2030-procurement-localization',
+    title: 'National Content Mandates Are Not a Compliance Exercise',
+    category: 'Procurement',
+    date: 'May 2026',
+    readTime: '8 min read',
+    summary: 'Most organisations treat national content requirements as a regulatory obligation to be managed around. The most sophisticated ones are using them to build structural competitive advantage.',
+    author: 'Saurabh Kabra',
+  },
+  {
+    slug: 'gcc-cfo-agenda-2026',
+    title: 'The GCC CFO Agenda in 2026: Three Irreversible Shifts',
+    category: 'Finance',
+    date: 'April 2026',
+    readTime: '10 min read',
+    summary: 'Consolidation pressure, capital allocation complexity, and the ESG reporting imperative are redefining what it means to lead a finance function in the GCC.',
+    author: 'Bhargav Jani',
+  },
+  {
+    slug: 'boutique-vs-global-consulting',
+    title: 'Why the Next Transformation You Commission Should Not Go to a Global Firm',
+    category: 'Strategy',
+    date: 'March 2026',
+    readTime: '6 min read',
+    summary: 'The economics of global consulting firms create a structural conflict between the seniority you buy and the seniority you receive.',
+    author: 'Anirudh Tusnial',
+  },
+  {
+    slug: 'secondment-model-explained',
+    title: 'Secondments, Not Consultants: When Embedded Expertise Changes Everything',
+    category: 'Expert Secondments',
+    date: 'February 2026',
+    readTime: '7 min read',
+    summary: 'There is a category of transformation challenge that advisory engagements cannot solve. Understanding when to shift from a consulting model to an embedded one is one of the most important decisions a transformation leader can make.',
+    author: 'Anirudh Tusnial',
+  },
+]
+
+export const metrics = [
+  { value: '$500M+', label: 'Value of mandates\nsupported across the GCC' },
+  { value: '8+', label: 'Average years of senior\nexperience per principal' },
+  { value: '7', label: 'Practice areas under\none integrated firm' },
+  { value: '100%', label: 'Engagements led\nby founding principals' },
+]
