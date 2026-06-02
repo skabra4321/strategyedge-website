@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --navy: #0A1628;
+  --navy-deep: #060E1A;
+  --navy-mid: #0F2040;
+  --silver: #9EB3C8;
+  --silver-light: #DCE8F5;
+  --silver-dim: #6A8EAA;
+  --silver-pale: #EBF2F8;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: #F0F4F8;
+    color: #0A1628;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  ::selection {
+    background-color: #0A1628;
+    color: #DCE8F5;
+  }
+
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: #F0F4F8; }
+  ::-webkit-scrollbar-thumb { background: #9EB3C8; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #0A1628; }
+}
+
+@layer components {
+  .section-label {
+    @apply text-label font-inter font-medium uppercase tracking-widest;
+    color: var(--silver);
+  }
+
+  .section-label-dark {
+    @apply text-label font-inter font-medium uppercase tracking-widest;
+    color: var(--silver-dim);
+  }
+
+  .display-heading {
+    @apply font-inter font-extralight leading-none tracking-tight;
+    font-size: clamp(52px, 7vw, 88px);
+    line-height: 1.04;
+    letter-spacing: -0.03em;
+  }
+
+  .section-heading {
+    @apply font-inter font-extralight;
+    font-size: clamp(36px, 4.5vw, 52px);
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+  }
+
+  .body-text {
+    @apply font-inter text-body-lg leading-relaxed;
+    color: rgba(10, 22, 40, 0.7);
+  }
+
+  /* Primary CTA — navy bg, silver text */
+  .btn-primary {
+    @apply relative inline-flex items-center gap-2 px-8 py-4 font-inter text-sm font-medium uppercase tracking-widest overflow-hidden transition-all duration-300;
+    background: var(--navy);
+    color: var(--silver-light);
+  }
+
+  .btn-primary::before {
+    content: '';
+    @apply absolute inset-0 scale-x-0 origin-left transition-transform duration-300;
+    background: var(--navy-mid);
+  }
+
+  .btn-primary:hover::before { @apply scale-x-100; }
+  .btn-primary span { @apply relative z-10; }
+
+  /* Ghost CTA */
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-8 py-4 border font-inter text-sm font-medium uppercase tracking-widest transition-all duration-300;
+    border-color: var(--navy);
+    color: var(--navy);
+  }
+  .btn-ghost:hover {
+    background: var(--navy);
+    color: var(--silver-light);
+  }
+
+  /* Ghost on dark bg */
+  .btn-ghost-light {
+    @apply inline-flex items-center gap-2 px-8 py-4 border font-inter text-sm font-medium uppercase tracking-widest transition-all duration-300;
+    border-color: rgba(158, 179, 200, 0.35);
+    color: var(--silver-light);
+  }
+  .btn-ghost-light:hover {
+    border-color: var(--silver-light);
+    color: #fff;
+  }
+
+  .container-site {
+    @apply mx-auto max-w-content px-6 lg:px-20;
+  }
+
+  .section-pad {
+    @apply py-24 lg:py-32;
+  }
+
+  .divider {
+    @apply w-12 h-px;
+    background: var(--silver);
+  }
+
+  .divider-dark {
+    @apply w-12 h-px;
+    background: rgba(158, 179, 200, 0.3);
+  }
+
+  .card-lift {
+    @apply transition-transform duration-500;
+  }
+  .card-lift:hover {
+    @apply -translate-y-1;
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .font-extralight { font-weight: 200; }
+  .font-thin { font-weight: 100; }
+}
