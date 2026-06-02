@@ -262,15 +262,6 @@ export const caseStudies = [
 
 export const leadershipTeam = [
   {
-    slug: 'saurabh-kabra',
-    name: 'Saurabh Kabra',
-    title: 'Founding Principal — Strategy & Procurement',
-    former: ['BCG'],
-    focus: ['Corporate Strategy', 'Procurement Transformation', 'Operating Model Design'],
-    bio: 'Saurabh is a strategy and transformation leader with 8+ years of experience delivering $500M+ in business impact across GCC, Africa, and India. A former BCG consultant, he has advised sovereign entities, PIF-backed firms, and Fortune 500 corporates on corporate strategy, procurement excellence, and digital transformation. Holder of the UAE Golden Visa. Based in Dubai.',
-    linkedin: 'https://www.linkedin.com/in/kabra-saurabh',
-  },
-  {
     slug: 'anirudh-tusnial',
     name: 'Anirudh Tusnial',
     title: 'Founding Principal — Strategy & Operations',
