@@ -59,8 +59,8 @@ export function Footer() {
               <p className="font-inter text-xs uppercase tracking-widest mb-2" style={{ color: 'rgba(158,179,200,0.35)', letterSpacing: '0.12em' }}>
                 Direct Enquiries
               </p>
-              <a href="mailto:principals@strategyedge.com" className="font-inter text-sm transition-colors" style={{ color: '#9EB3C8' }}>
-                principals@strategyedge.com
+              <a href="mailto:admin@stratedgecnt.com" className="font-inter text-sm transition-colors" style={{ color: '#9EB3C8' }}>
+                admin@stratedgecnt.com
               </a>
             </div>
             <div className="mt-6">

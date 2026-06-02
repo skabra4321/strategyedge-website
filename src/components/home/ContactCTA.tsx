@@ -31,10 +31,10 @@ export function ContactCTA() {
           </div>
           <p className="mt-8 font-inter text-sm" style={{ color: 'rgba(158,179,200,0.35)' }}>
             Or reach us directly:{' '}
-            <a href="mailto:principals@strategyedge.com" className="transition-colors" style={{ color: '#9EB3C8' }}
+            <a href="mailto:admin@stratedgecnt.com" className="transition-colors" style={{ color: '#9EB3C8' }}
               onMouseEnter={e => (e.currentTarget.style.color = '#DCE8F5')}
               onMouseLeave={e => (e.currentTarget.style.color = '#9EB3C8')}>
-              principals@strategyedge.com
+              admin@stratedgecnt.com
             </a>
           </p>
         </motion.div>

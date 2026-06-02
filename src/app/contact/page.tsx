@@ -40,10 +40,10 @@ export default function ContactPage() {
                 <div>
                   <p className="font-inter text-xs text-[#4A6A8A] uppercase tracking-widest mb-2">Principal Enquiries</p>
                   <a
-                    href="mailto:principals@strategyedge.com"
+                    href="mailto:admin@stratedgecnt.com"
                     className="font-inter text-base text-[#9EB3C8] hover:text-[#9EB3C8]-light transition-colors"
                   >
-                    principals@strategyedge.com
+                    admin@stratedgecnt.com
                   </a>
                 </div>
                 <div>

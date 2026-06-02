@@ -147,7 +147,7 @@ export function Navigation() {
                   Get in Touch
                 </Link>
                 <p className="mt-6 font-inter text-sm text-[#9EB3C8]/40">
-                  principals@strategyedge.com
+                  admin@stratedgecnt.com
                 </p>
               </motion.div>
             </div>
