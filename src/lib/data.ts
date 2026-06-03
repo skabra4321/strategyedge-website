@@ -174,89 +174,140 @@ export const industries = [
 
 export const caseStudies = [
   {
-    slug: 'national-procurement-transformation',
-    title: 'National Procurement Transformation for a GCC Government Authority',
-    industry: 'Government & Public Sector',
-    capability: 'Procurement & Supply Chain',
-    duration: '14 months',
-    summary:
-      'Redesigned the end-to-end procurement operating model for a national government authority, achieving a 34% reduction in procurement cycle time and establishing a national content framework aligned with Vision programme objectives.',
-    outcomes: [
-      '34% reduction in average procurement cycle time',
-      'National content framework adopted across 12 subsidiary entities',
-      'Procurement function capability maturity advanced from Level 1 to Level 3',
-      'AED 2.1B in strategic sourcing savings identified over 3-year horizon',
-    ],
-    challenge:
-      'A GCC government authority managing AED 18B in annual procurement spend had fragmented processes, limited category management capability, and a national content framework that did not meet evolving Vision programme requirements.',
-  },
-  {
-    slug: 'finance-transformation-industrial',
-    title: 'Finance Transformation for a GCC Industrial Conglomerate',
+    slug: 'uae-fb-market-assessment-roadmap',
+    title: 'Market Assessment & 3-Year Strategic Roadmap for a UAE F&B Leader',
     industry: 'Industrial & Manufacturing',
-    capability: 'Finance Transformation',
-    duration: '10 months',
+    capability: 'Strategy & Transformation',
+    duration: '4 months',
     summary:
-      'Led the full finance function redesign for a multi-entity industrial conglomerate, implementing a new operating model, group reporting architecture, and FP&A capability that provided consolidated visibility across 22 operating entities.',
+      'Developed a forward-looking 3-year strategic roadmap for a UAE-based food company navigating a rapidly shifting competitive landscape and evolving consumer preferences across the GCC.',
     outcomes: [
-      'Consolidated management reporting cycle reduced from 18 to 5 business days',
-      'Unified chart of accounts and reporting taxonomy across 22 entities',
-      'Group FP&A function established from zero baseline',
-      'Finance headcount optimised by 22% through structural redesign',
+      'Comprehensive market assessment covering competitive positioning and demand trends',
+      'Three-year growth roadmap endorsed by executive leadership',
+      'Priority growth categories and geographic expansion sequencing defined',
+      'Investment case developed for two strategic adjacencies',
     ],
     challenge:
-      'A rapidly grown industrial group had no consolidated financial reporting capability. Each of its 22 entities operated with independent finance functions, inconsistent accounting practices, and no group-level FP&A.',
+      'A UAE-based food company needed a strategy grounded in market realities rather than internal assumptions. The competitive landscape was shifting, consumer preferences were evolving, and leadership lacked a structured view of where to play and how to win over the next three years.',
   },
   {
-    slug: 'corporate-strategy-sovereign',
-    title: 'Corporate Strategy Refresh for a Sovereign-Linked Organisation',
-    industry: 'Sovereign & State-Linked Organisations',
+    slug: 'mea-fb-backward-integration',
+    title: 'Backward Integration & Expansion Strategy for a Middle East F&B Player',
+    industry: 'Industrial & Manufacturing',
+    capability: 'Procurement & Supply Chain',
+    duration: '3 months',
+    summary:
+      'Evaluated the financial and operational case for backward integration across a fast-growing MEA food and beverage brand with a growing chain footprint, enabling leadership to make a capital-allocation decision grounded in rigorous analysis.',
+    outcomes: [
+      'Full financial modelling of backward integration scenarios across three product categories',
+      'Cost-of-goods improvement opportunity quantified across the supply chain',
+      'Build vs. partner vs. acquire options assessed with clear recommendation',
+      'Expansion sequencing roadmap developed alongside integration strategy',
+    ],
+    challenge:
+      'A fast-growing MEA food and beverage brand with an expanding chain network needed to determine whether backward integration would improve its cost structure and revenue base — and if so, at what scale and pace.',
+  },
+  {
+    slug: 'zomato-tier2-profitability',
+    title: 'Profitability Turnaround for Zomato Across 500+ Tier-2 Cities',
+    industry: 'Technology & Digital',
+    capability: 'Operations Excellence',
+    duration: '12 months',
+    summary:
+      'Led the profitability and merchant NPS programme for Zomato across its long-tail city network, addressing the structural cost and revenue challenges that made Tier-2 expansion margin-dilutive.',
+    outcomes: [
+      'Profitability improvement programme deployed across 500+ cities',
+      'Delivery cost reduction framework developed and operationalised',
+      'Merchant NPS charter established as a formal business function',
+      'AOV improvement initiatives implemented across the long-tail network',
+    ],
+    challenge:
+      'Zomato\'s expansion into 500+ Tier-2 cities had created a profitability problem. High delivery costs relative to low average order values were compressing margins, and the merchant experience was inconsistent — threatening both retention and long-term unit economics.',
+  },
+  {
+    slug: 'packaging-org-portfolio-strategy',
+    title: 'Organisation & Portfolio Strategy for a ~SAR 1Bn Packaging Company',
+    industry: 'Industrial & Manufacturing',
     capability: 'Strategy & Transformation',
+    duration: '5 months',
+    summary:
+      'Redesigned the organisational structure and product portfolio strategy for a large packaging company that had been loss-making for consecutive years, bringing strategic clarity to a business unit structure that lacked differentiation.',
+    outcomes: [
+      'Long-term portfolio strategy defined with clear BU differentiation and focus',
+      'Loss-making root causes identified and structural remediation roadmap developed',
+      'Organisational redesign reducing structural overhead and clarifying accountability',
+      'Strategic roadmap presented to and endorsed by board leadership',
+    ],
+    challenge:
+      'A packaging company with revenues approaching SAR 1Bn had experienced consecutive years of losses. Its business unit portfolio lacked sharp differentiation, strategic focus was diffuse, and the organisational structure was not built for the performance turnaround leadership needed.',
+  },
+  {
+    slug: 'textile-digital-strategy',
+    title: 'Digital Strategy for a Leading Asian Textile Player',
+    industry: 'Industrial & Manufacturing',
+    capability: 'Strategy & Transformation',
+    duration: '4 months',
+    summary:
+      'Developed a comprehensive digital strategy for a top Asian textile company, enabling the organisation to move from fragmented, manual processes to a technology-driven operating model with end-to-end digital visibility.',
+    outcomes: [
+      'Digital maturity assessment across all major operational functions',
+      'Technology roadmap prioritised by value and implementation feasibility',
+      'Digital operating model and governance structure defined',
+      'Business case developed for priority digital investments',
+    ],
+    challenge:
+      'A leading Asian textile company recognised that scale alone would not sustain its competitive position. Processes were manual and fragmented, and the organisation lacked the digital infrastructure to manage complexity at the scale it was targeting.',
+  },
+  {
+    slug: 'it-giant-operating-model',
+    title: 'Operating Model Transformation for a Global IT Services Firm ($10B+)',
+    industry: 'Technology & Digital',
+    capability: 'Operations Excellence',
     duration: '8 months',
     summary:
-      'Developed a five-year corporate strategy for a sovereign-linked organisation, redefining its mandate, portfolio, and operating model in response to evolving national priorities and a changing competitive landscape.',
+      'Led the change management and operating model restructuring programme for a global IT services company, aligning over 100 senior leaders across three organisational layers to a new, more agile and scalable operating structure.',
     outcomes: [
-      'Board-endorsed five-year strategic plan with fully costed implementation roadmap',
-      'Portfolio rationalisation identifying three non-core businesses for divestiture',
-      'New operating model approved by board and aligned with national Vision objectives',
-      'Three new strategic initiatives mobilised within 90 days of board approval',
+      '100+ leaders across L1–L3 aligned to new roles and ways of working',
+      'Operating model design translated into role-level accountabilities and decision rights',
+      'Leadership alignment workshops delivered across multiple geographies',
+      'CXO communications framework and change narrative developed and deployed',
     ],
     challenge:
-      "A sovereign-linked organisation faced an evolving national mandate and increasing competitive pressure in its core markets. Its existing strategy had not been formally reviewed in six years and no longer reflected the organisation\'s role within the national economic programme.",
+      'A $10B+ global IT services firm was undergoing a significant operating model transformation — shifting to a more agile, scalable structure. The critical risk was not the design but the adoption: over 100 senior leaders needed to internalise, commit to, and operationalise a fundamentally different way of working.',
   },
   {
-    slug: 'infrastructure-pmo',
-    title: 'Transformation PMO for a National Infrastructure Programme',
-    industry: 'Infrastructure & Real Estate',
-    capability: 'PMO & Execution',
-    duration: '18 months',
+    slug: 'healthcare-marketing-effectiveness',
+    title: 'Marketing Effectiveness & Optimisation for a Major Asian Healthcare Company',
+    industry: 'Industrial & Manufacturing',
+    capability: 'Operations Excellence',
+    duration: '5 months',
     summary:
-      'Established and led the transformation PMO for a national infrastructure delivery programme valued at SAR 24B, covering programme governance, reporting architecture, and stakeholder management across fourteen delivery workstreams.',
+      'Designed and implemented a marketing effectiveness framework for a major healthcare company, creating visibility across six business units and enabling data-driven reallocation of a fragmented and underperforming marketing budget.',
     outcomes: [
-      'Programme governance framework established within 6 weeks of mobilisation',
-      'Executive reporting dashboard delivering real-time visibility to programme board',
-      'On-time delivery rate improved from 54% to 87% within 12 months',
-      '14 workstreams brought to a unified programme rhythm and accountability structure',
+      'Unified marketing performance measurement framework across 6 BUs',
+      'Marketing ROI quantified for the first time across major spend categories',
+      'Budget reallocation recommendation developed with clear prioritisation logic',
+      'Integrated reporting architecture replacing fragmented measurement approaches',
     ],
     challenge:
-      'A landmark national infrastructure programme was running 4 months behind its milestone schedule, with no unified programme governance structure and fourteen independently operating delivery workstreams with limited senior accountability.',
+      'A major healthcare company was overspending on marketing with limited visibility into what was working. Fragmented data, inconsistent measurement methodologies, and unclear ROI across six business units meant leadership was making investment decisions without a reliable evidence base.',
   },
   {
-    slug: 'esg-strategy-energy',
-    title: 'ESG Strategy and Governance for a GCC Energy Company',
-    industry: 'Energy & Utilities',
-    capability: 'ESG & Sustainability',
-    duration: '6 months',
+    slug: 'industrial-b2b-influencer-strategy',
+    title: 'B2B Influencer Strategy for a $2B Industrial Goods Company',
+    industry: 'Industrial & Manufacturing',
+    capability: 'Strategy & Transformation',
+    duration: '3 months',
     summary:
-      'Developed a comprehensive ESG strategy, governance framework, and investor-grade disclosure architecture for a listed GCC energy company, aligned to TCFD and GRI standards.',
+      'Designed a B2B influence model for a large industrial goods company seeking to expand its market reach, addressing the complexity of long buying cycles and multi-stakeholder decision-making through a structured influencer engagement framework.',
     outcomes: [
-      'First ESG report published to TCFD and GRI standards within 8 months',
-      'ESG governance structure embedded at board and management levels',
-      'Net-zero transition roadmap developed with science-based targets',
-      'ESG rating improved by two tiers within 12 months of implementation',
+      'B2B influencer mapping across key decision-maker and specifier segments',
+      'Influence model designed for complex, multi-stakeholder buying journeys',
+      'Engagement strategy and pilot programme defined for priority segments',
+      'Internal capability roadmap developed to operationalise the influencer programme',
     ],
     challenge:
-      'A listed GCC energy company faced increasing pressure from international institutional investors for credible ESG disclosure and a credible net-zero commitment aligned to national targets.',
+      'A $2B industrial goods company needed to expand its B2B influence, but the nature of its market — long buying cycles, complex decision-making hierarchies, and technically sophisticated buyers — made conventional approaches ineffective.',
   },
 ]
 
