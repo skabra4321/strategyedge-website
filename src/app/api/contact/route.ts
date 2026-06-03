@@ -10,7 +10,7 @@ export async function POST(req: Request) {
     await resend.emails.send({
       from: 'StrategyEdge Website <onboarding@resend.dev>',
       to: 'admin@stratedgecnt.com',
-      replyTo: email,
+      reply_to: email,
       subject: `New Enquiry: ${topic || 'General'} — ${organisation}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; color: #0A1628;">
