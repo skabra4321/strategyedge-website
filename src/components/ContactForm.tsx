@@ -23,9 +23,17 @@ export function ContactForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     setStatus('submitting')
-    // Simulate submission -- wire up to your email/CRM endpoint
-    await new Promise((r) => setTimeout(r, 1200))
-    setStatus('success')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      if (!res.ok) throw new Error('Failed')
+      setStatus('success')
+    } catch {
+      setStatus('error')
+    }
   }
 
   if (status === 'success') {
@@ -36,6 +44,15 @@ export function ContactForm() {
         <p className="font-inter text-sm text-[#4A6A8A] leading-relaxed max-w-md">
           Thank you for reaching out. A principal will review your enquiry and respond directly -- typically within one business day.
         </p>
+      </div>
+    )
+  }
+
+  if (status === 'error') {
+    return (
+      <div className="flex flex-col items-start gap-4 py-8">
+        <p className="font-inter text-sm text-red-500">Something went wrong. Please email us directly at admin@stratedgecnt.com</p>
+        <button onClick={() => setStatus('idle')} className="font-inter text-xs text-[#4A6A8A] underline">Try again</button>
       </div>
     )
   }
